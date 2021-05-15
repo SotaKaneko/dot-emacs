@@ -1,0 +1,1 @@
+/home/sota/.emacs.d/config/packages.el
