@@ -1,5 +1,5 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;; File name: ` ~/.emacs.d/config/company-mode.el '
+;;; File name: ' ~/.emacs.d/config/company-mode.el '
 ;;;
 
 (require 'company)

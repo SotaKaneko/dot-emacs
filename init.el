@@ -5,3 +5,4 @@
 (load "display")
 (load "key-binding")
 (load "company-mode")
+(load "minimap-mode")

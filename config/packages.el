@@ -1,5 +1,5 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;; File name: ` ~/.emacs.d/config/packages.el '
+;;; File name: ' ~/.emacs.d/config/packages.el '
 ;;;
 
 (require 'package)
