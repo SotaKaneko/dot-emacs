@@ -15,6 +15,6 @@
 			    prog-mode
 			    tex-mode))
 			    
-(setq minimap-window-location `right)
+(setq minimap-window-location `left)
 (setq minimap-update-delay 0.1)
-(setq minimap-minimum-width 10)
+(setq minimap-minimum-width 20)
