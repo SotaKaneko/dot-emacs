@@ -11,7 +11,7 @@
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; Messaging in the Emacs World
-;(setq load-path (append ' ("/usr/share/emacs/site-lisp/mew") load-path))
+(setq load-path (append ' ("/usr/local/share/emacs/site-lisp/mew") load-path))
 
 (autoload 'mew "mew" nil t)
 (autoload 'mew-send "mew" nil t)
