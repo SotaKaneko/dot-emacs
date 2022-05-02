@@ -4,5 +4,6 @@
 (load "packages")
 (load "display")
 (load "key-binding")
+(load "mew")
 (load "company-mode")
 (load "minimap-mode")
