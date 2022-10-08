@@ -61,7 +61,18 @@
 (column-number-mode t)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; global-display-line-numbers-mode)
+;;; It available from Emacs 26
+(when (version<= "26.0.50" emacs-version )
+  (global-display-line-numbers-mode)
+  (set-face-attribute 'line-number nil
+		      :foreground "MidnightBlue"
+		      :background "gray50")
+  (set-face-attribute 'line-number-current-line nil
+		      :foreground "white"))
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; linum-mode
-(global-linum-mode t)
-(setq linum-format "%d ")
-(set-face-foreground 'linum' "grey")
+; (global-linum-mode t)
+; (setq linum-format "%d ")
+; (set-face-foreground 'linum' "grey")
